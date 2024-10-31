@@ -1,0 +1,50 @@
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .product-form {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(158, 152, 152);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Säädä tarpeen mukaan */
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-info label {
+    width: 100px; /* Säädä tarpeen mukaan */
+    margin-right: 10px;
+  }
+  
+  .product-info input,
+  .product-info select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background: #5a52a8;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background: #3a346b;
+    transform: scale(1.1);
+  }
+  
